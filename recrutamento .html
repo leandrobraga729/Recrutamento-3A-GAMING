@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutamento da Guilda - Free Fire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .field {
+            margin-bottom: 15px;
+        }
+        .field label {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .field input, .field select {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .field input[type="checkbox"] {
+            width: auto;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+        .note {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🎮 Ficha de Recrutamento 🏆</h1>
+    <form action="#" method="post">
+        <div class="field">
+            <label for="name">1. Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="field">
+            <label for="id">2. ID:</label>
+            <input type="text" id="id" name="id" required>
+        </div>
+
+        <div class="field">
+            <label for="age">3. Idade:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+
+        <div class="field">
+            <label for="active">4. Ativo no jogo?</label>
+            <select id="active" name="active" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="guild">5. Joga Guerra de Guildas?</label>
+            <select id="guild" name="guild" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <input type="text" id="points" name="points" placeholder="Se sim, informe a média de pontos">
+        </div>
+
+        <div class="field">
+            <label for="groups">6. Participa dos grupos oficiais?</label>
+            <select id="groups" name="groups" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="commitment">7. Comprometido com as regras?</label>
+            <select id="commitment" name="commitment" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="tag">8. Consegue colocar a tag da guilda?</label>
+            <select id="tag" name="tag" required>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar Ficha</button>
+    </form>
+
+    <div class="note">
+        📩 *Envie para o líder/vice!*<br>
+        ⚡ *Vamos crescer juntos!*
+    </div>
+</div>
+
+</body>
+</html>
